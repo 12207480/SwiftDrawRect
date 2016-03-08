@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670B12BA1C8DCF7100A2BEB7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B12B91C8DCF7100A2BEB7 /* ProgressView.swift */; };
 		675141441C8D421B0095A9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675141431C8D421B0095A9CC /* AppDelegate.swift */; };
 		675141461C8D421B0095A9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675141451C8D421B0095A9CC /* ViewController.swift */; };
 		675141491C8D421B0095A9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675141471C8D421B0095A9CC /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		670B12B91C8DCF7100A2BEB7 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		675141401C8D421B0095A9CC /* SwiftDrawRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDrawRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675141431C8D421B0095A9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		675141451C8D421B0095A9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				675141451C8D421B0095A9CC /* ViewController.swift */,
 				675141551C8D42630095A9CC /* FillView.swift */,
 				675141571C8D444A0095A9CC /* LineView.swift */,
+				670B12B91C8DCF7100A2BEB7 /* ProgressView.swift */,
 				675141471C8D421B0095A9CC /* Main.storyboard */,
 				6751414A1C8D421B0095A9CC /* Assets.xcassets */,
 				6751414C1C8D421B0095A9CC /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			files = (
 				675141581C8D444A0095A9CC /* LineView.swift in Sources */,
 				675141461C8D421B0095A9CC /* ViewController.swift in Sources */,
+				670B12BA1C8DCF7100A2BEB7 /* ProgressView.swift in Sources */,
 				675141561C8D42630095A9CC /* FillView.swift in Sources */,
 				675141441C8D421B0095A9CC /* AppDelegate.swift in Sources */,
 			);
@@ -293,6 +297,7 @@
 				675141541C8D421B0095A9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

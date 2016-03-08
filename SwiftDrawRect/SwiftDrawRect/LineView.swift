@@ -72,28 +72,22 @@ class LineView: UIView {
         // 渲染上下文
         CGContextStrokePath(ctx3)
 
-        // 1.获取图形上下文
+        // 2.2.最原始的绘图方式
         // 目前我们所用的上下文都是以UIGraphics
         // CGContextRef Ref：引用 CG:目前使用到的类型和函数 一般都是CG开头 CoreGraphics
         let ctx4 = UIGraphicsGetCurrentContext();
-
-        // 2.描述路径
+        // 描述路径
         // 创建路径
         let pathCG = CGPathCreateMutable();
-
         // 设置起点
         // path：给哪个路径设置起点
         CGPathMoveToPoint(pathCG, nil, 50, 50)
-//        CGPathMoveToPoint(pathCG, NULL, 50, 50);
-
         // 添加一根线到某个点
-        CGPathAddLineToPoint(pathCG, nil, 200, 200);
-
+        CGPathAddLineToPoint(pathCG, nil, 200, 200)
         // 3.把路径添加到上下文
-        CGContextAddPath(ctx4, pathCG);
-        
+        CGContextAddPath(ctx4, pathCG)
         // 4.渲染上下文
-        CGContextStrokePath(ctx4); 
+        CGContextStrokePath(ctx4)
 
     }
 
