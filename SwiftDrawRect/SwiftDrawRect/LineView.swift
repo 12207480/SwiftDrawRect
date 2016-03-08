@@ -9,11 +9,6 @@
 import UIKit
 
 class LineView: UIView {
-    // 绘图的步骤： 1.获取上下文 2.创建路径（描述路径） 3.把路径添加到上下文 4.渲染上下文
-    // 通常在这个方法里面绘制图形
-    // 为什么要再drawRect里面绘图，只有在这个方法里面才能获取到跟View的layer相关联的图形上下文
-    // 什么时候调用:当这个View要显示的时候才会调用drawRect绘制图形，
-    // 注意：rect是当前控件的bounds
     override func drawRect(rect: CGRect) {
         // 0.添加背景色
 //        UIColor.lightGrayColor().setFill()

@@ -12,10 +12,7 @@ class ProgressView: UIView {
 
     var progress : Float = 0.0 {
         didSet {
-            print(progress)
             setNeedsDisplay()
-            setNeedsDisplayInRect(frame)
-
         }
     }
 
