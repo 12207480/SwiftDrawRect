@@ -20,7 +20,7 @@ class PieView: UIView {
         UIColor.whiteColor().setFill()
         UIRectFill(rect)
 
-        let array = arrayRandom()
+        let array = Array<Int>.arrayRandom()
         let radius : CGFloat = rect.width / 2
         let center = CGPointMake(radius, radius)
         var startA : CGFloat = 0
@@ -36,27 +36,5 @@ class PieView: UIView {
             UIColor.colorRandom().set()
             path.fill()
         }
-    }
-
-
-    func arrayRandom() -> Array<UInt32> {
-        var totoal:UInt32 = 100
-        var arrayMutable : Array<UInt32> = Array()
-
-        let times : UInt32 = arc4random_uniform(10) + 1
-        for _ in 0...times {
-            let number : UInt32 = arc4random_uniform(totoal)
-            arrayMutable.append(number)
-            totoal = totoal - number
-
-            if totoal == 0{
-                break
-            }
-        }
-        
-        if totoal != 0 {
-            arrayMutable.append(totoal)
-        }
-        return arrayMutable
     }
 }

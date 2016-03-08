@@ -18,6 +18,8 @@
 		675141581C8D444A0095A9CC /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675141571C8D444A0095A9CC /* LineView.swift */; };
 		678008901C8E9E80003828AD /* UIColor+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6780088F1C8E9E80003828AD /* UIColor+ST.swift */; };
 		678008921C8EA53A003828AD /* UIScreen+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678008911C8EA53A003828AD /* UIScreen+ST.swift */; };
+		678008941C8EDCE5003828AD /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678008931C8EDCE5003828AD /* BarView.swift */; };
+		678008961C8EDD1D003828AD /* Array+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678008951C8EDD1D003828AD /* Array+ST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		675141571C8D444A0095A9CC /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 		6780088F1C8E9E80003828AD /* UIColor+ST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ST.swift"; sourceTree = "<group>"; };
 		678008911C8EA53A003828AD /* UIScreen+ST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+ST.swift"; sourceTree = "<group>"; };
+		678008931C8EDCE5003828AD /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		678008951C8EDD1D003828AD /* Array+ST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+ST.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +76,9 @@
 				675141571C8D444A0095A9CC /* LineView.swift */,
 				670B12B91C8DCF7100A2BEB7 /* ProgressView.swift */,
 				670B12BB1C8E89BC00A2BEB7 /* PieView.swift */,
+				678008931C8EDCE5003828AD /* BarView.swift */,
 				6780088F1C8E9E80003828AD /* UIColor+ST.swift */,
+				678008951C8EDD1D003828AD /* Array+ST.swift */,
 				678008911C8EA53A003828AD /* UIScreen+ST.swift */,
 				675141471C8D421B0095A9CC /* Main.storyboard */,
 				6751414A1C8D421B0095A9CC /* Assets.xcassets */,
@@ -154,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678008941C8EDCE5003828AD /* BarView.swift in Sources */,
 				675141581C8D444A0095A9CC /* LineView.swift in Sources */,
 				675141461C8D421B0095A9CC /* ViewController.swift in Sources */,
 				670B12BA1C8DCF7100A2BEB7 /* ProgressView.swift in Sources */,
+				678008961C8EDD1D003828AD /* Array+ST.swift in Sources */,
 				678008901C8E9E80003828AD /* UIColor+ST.swift in Sources */,
 				678008921C8EA53A003828AD /* UIScreen+ST.swift in Sources */,
 				675141561C8D42630095A9CC /* FillView.swift in Sources */,

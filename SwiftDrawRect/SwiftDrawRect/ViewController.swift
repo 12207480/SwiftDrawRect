@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var line:LineView = LineView()
     var progressView:ProgressView = ProgressView()
     var pieView :PieView = PieView()
+    var barView:BarView = BarView()
 
     // MARK: - --- lift cycle 生命周期 ---
 
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         view.addSubview(progressView)
         view.addSubview(slider)
         view.addSubview(pieView)
+        view.addSubview(barView)
     }
 
     override func viewWillLayoutSubviews() {
@@ -33,6 +35,7 @@ class ViewController: UIViewController {
         line.frame = CGRectMake(10, 130, 210, 100)
         progressView.frame = CGRectMake(120, 20, 100, 100)
         pieView.frame = CGRectMake(10, 240, 100, 100)
+        barView.frame = CGRectMake(10, 350, 210, 100)
 
     }
 
@@ -49,7 +52,7 @@ class ViewController: UIViewController {
     // MARK: - --- setters 属性 ---
 
     // MARK: - --- getters 属性 ---
-    
+
     private lazy var slider :UISlider = {
         let slider = UISlider()
         slider.frame = CGRectMake(230, 50, 100,44)
