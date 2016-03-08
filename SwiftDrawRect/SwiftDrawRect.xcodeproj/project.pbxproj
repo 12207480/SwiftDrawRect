@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		670B12BA1C8DCF7100A2BEB7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B12B91C8DCF7100A2BEB7 /* ProgressView.swift */; };
+		670B12BC1C8E89BC00A2BEB7 /* PieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670B12BB1C8E89BC00A2BEB7 /* PieView.swift */; };
 		675141441C8D421B0095A9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675141431C8D421B0095A9CC /* AppDelegate.swift */; };
 		675141461C8D421B0095A9CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675141451C8D421B0095A9CC /* ViewController.swift */; };
 		675141491C8D421B0095A9CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675141471C8D421B0095A9CC /* Main.storyboard */; };
@@ -15,10 +16,13 @@
 		6751414E1C8D421B0095A9CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6751414C1C8D421B0095A9CC /* LaunchScreen.storyboard */; };
 		675141561C8D42630095A9CC /* FillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675141551C8D42630095A9CC /* FillView.swift */; };
 		675141581C8D444A0095A9CC /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675141571C8D444A0095A9CC /* LineView.swift */; };
+		678008901C8E9E80003828AD /* UIColor+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6780088F1C8E9E80003828AD /* UIColor+ST.swift */; };
+		678008921C8EA53A003828AD /* UIScreen+ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678008911C8EA53A003828AD /* UIScreen+ST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		670B12B91C8DCF7100A2BEB7 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		670B12BB1C8E89BC00A2BEB7 /* PieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieView.swift; sourceTree = "<group>"; };
 		675141401C8D421B0095A9CC /* SwiftDrawRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDrawRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675141431C8D421B0095A9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		675141451C8D421B0095A9CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		6751414F1C8D421B0095A9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		675141551C8D42630095A9CC /* FillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillView.swift; sourceTree = "<group>"; };
 		675141571C8D444A0095A9CC /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		6780088F1C8E9E80003828AD /* UIColor+ST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ST.swift"; sourceTree = "<group>"; };
+		678008911C8EA53A003828AD /* UIScreen+ST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+ST.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,9 @@
 				675141551C8D42630095A9CC /* FillView.swift */,
 				675141571C8D444A0095A9CC /* LineView.swift */,
 				670B12B91C8DCF7100A2BEB7 /* ProgressView.swift */,
+				670B12BB1C8E89BC00A2BEB7 /* PieView.swift */,
+				6780088F1C8E9E80003828AD /* UIColor+ST.swift */,
+				678008911C8EA53A003828AD /* UIScreen+ST.swift */,
 				675141471C8D421B0095A9CC /* Main.storyboard */,
 				6751414A1C8D421B0095A9CC /* Assets.xcassets */,
 				6751414C1C8D421B0095A9CC /* LaunchScreen.storyboard */,
@@ -148,8 +157,11 @@
 				675141581C8D444A0095A9CC /* LineView.swift in Sources */,
 				675141461C8D421B0095A9CC /* ViewController.swift in Sources */,
 				670B12BA1C8DCF7100A2BEB7 /* ProgressView.swift in Sources */,
+				678008901C8E9E80003828AD /* UIColor+ST.swift in Sources */,
+				678008921C8EA53A003828AD /* UIScreen+ST.swift in Sources */,
 				675141561C8D42630095A9CC /* FillView.swift in Sources */,
 				675141441C8D421B0095A9CC /* AppDelegate.swift in Sources */,
+				670B12BC1C8E89BC00A2BEB7 /* PieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

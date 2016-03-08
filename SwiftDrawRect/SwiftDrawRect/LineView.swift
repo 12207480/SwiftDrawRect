@@ -16,7 +16,8 @@ class LineView: UIView {
     // 注意：rect是当前控件的bounds
     override func drawRect(rect: CGRect) {
         // 0.添加背景色
-        UIColor.lightGrayColor().setFill()
+//        UIColor.lightGrayColor().setFill()
+        UIColor.colorRandom().setFill()
         UIRectFill(rect)
 
         // 1.0.绘制曲线
@@ -83,7 +84,7 @@ class LineView: UIView {
         // path：给哪个路径设置起点
         CGPathMoveToPoint(pathCG, nil, 50, 50)
         // 添加一根线到某个点
-        CGPathAddLineToPoint(pathCG, nil, 200, 200)
+        CGPathAddLineToPoint(pathCG, nil, 100, 100)
         // 3.把路径添加到上下文
         CGContextAddPath(ctx4, pathCG)
         // 4.渲染上下文

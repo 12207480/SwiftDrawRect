@@ -16,11 +16,13 @@ class FillView: UIView {
     */
     override func drawRect(rect: CGRect) {
         // 1.全部填充
-        UIColor.brownColor().setFill()
+//        UIColor.brownColor().setFill()
+        RGBA(230, g: 234, b: 156, a: 0.5).setFill()
         UIRectFill(rect)
 
         // 2.笔画填充
-        UIColor.orangeColor().setStroke()
+//        UIColor.orangeColor().setStroke()
+        RGB(243, g: 247, b: 139).setStroke()
         let frame = CGRectMake(10, 10, 20, 20)
         UIRectFrame(frame)
     }
